@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2356DEE2BD5C7EB00EAAEBA /* dailyjournaliosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2356DED2BD5C7EB00EAAEBA /* dailyjournaliosApp.swift */; };
+		D2356DF02BD5C7EB00EAAEBA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2356DEF2BD5C7EB00EAAEBA /* ContentView.swift */; };
+		D2356DF22BD5C7EC00EAAEBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2356DF12BD5C7EC00EAAEBA /* Assets.xcassets */; };
+		D2356DF52BD5C7EC00EAAEBA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2356DF42BD5C7EC00EAAEBA /* Preview Assets.xcassets */; };
+		D2356DFF2BD5C7EC00EAAEBA /* dailyjournaliosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2356DFE2BD5C7EC00EAAEBA /* dailyjournaliosTests.swift */; };
+		D2356E092BD5C7EC00EAAEBA /* dailyjournaliosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2356E082BD5C7EC00EAAEBA /* dailyjournaliosUITests.swift */; };
+		D2356E0B2BD5C7EC00EAAEBA /* dailyjournaliosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2356E0A2BD5C7EC00EAAEBA /* dailyjournaliosUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2356DFB2BD5C7EC00EAAEBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2356DE22BD5C7EB00EAAEBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2356DE92BD5C7EB00EAAEBA;
+			remoteInfo = dailyjournalios;
+		};
+		D2356E052BD5C7EC00EAAEBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2356DE22BD5C7EB00EAAEBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2356DE92BD5C7EB00EAAEBA;
+			remoteInfo = dailyjournalios;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D2356DEA2BD5C7EB00EAAEBA /* dailyjournalios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dailyjournalios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2356DED2BD5C7EB00EAAEBA /* dailyjournaliosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dailyjournaliosApp.swift; sourceTree = "<group>"; };
+		D2356DEF2BD5C7EB00EAAEBA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D2356DF12BD5C7EC00EAAEBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2356DF42BD5C7EC00EAAEBA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D2356DFA2BD5C7EC00EAAEBA /* dailyjournaliosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dailyjournaliosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2356DFE2BD5C7EC00EAAEBA /* dailyjournaliosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dailyjournaliosTests.swift; sourceTree = "<group>"; };
+		D2356E042BD5C7EC00EAAEBA /* dailyjournaliosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dailyjournaliosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2356E082BD5C7EC00EAAEBA /* dailyjournaliosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dailyjournaliosUITests.swift; sourceTree = "<group>"; };
+		D2356E0A2BD5C7EC00EAAEBA /* dailyjournaliosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dailyjournaliosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2356DE72BD5C7EB00EAAEBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2356DF72BD5C7EC00EAAEBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2356E012BD5C7EC00EAAEBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2356DE12BD5C7EB00EAAEBA = {
+			isa = PBXGroup;
+			children = (
+				D2356DEC2BD5C7EB00EAAEBA /* dailyjournalios */,
+				D2356DFD2BD5C7EC00EAAEBA /* dailyjournaliosTests */,
+				D2356E072BD5C7EC00EAAEBA /* dailyjournaliosUITests */,
+				D2356DEB2BD5C7EB00EAAEBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2356DEB2BD5C7EB00EAAEBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2356DEA2BD5C7EB00EAAEBA /* dailyjournalios.app */,
+				D2356DFA2BD5C7EC00EAAEBA /* dailyjournaliosTests.xctest */,
+				D2356E042BD5C7EC00EAAEBA /* dailyjournaliosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2356DEC2BD5C7EB00EAAEBA /* dailyjournalios */ = {
+			isa = PBXGroup;
+			children = (
+				D2356DED2BD5C7EB00EAAEBA /* dailyjournaliosApp.swift */,
+				D2356DEF2BD5C7EB00EAAEBA /* ContentView.swift */,
+				D2356DF12BD5C7EC00EAAEBA /* Assets.xcassets */,
+				D2356DF32BD5C7EC00EAAEBA /* Preview Content */,
+			);
+			path = dailyjournalios;
+			sourceTree = "<group>";
+		};
+		D2356DF32BD5C7EC00EAAEBA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D2356DF42BD5C7EC00EAAEBA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D2356DFD2BD5C7EC00EAAEBA /* dailyjournaliosTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2356DFE2BD5C7EC00EAAEBA /* dailyjournaliosTests.swift */,
+			);
+			path = dailyjournaliosTests;
+			sourceTree = "<group>";
+		};
+		D2356E072BD5C7EC00EAAEBA /* dailyjournaliosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D2356E082BD5C7EC00EAAEBA /* dailyjournaliosUITests.swift */,
+				D2356E0A2BD5C7EC00EAAEBA /* dailyjournaliosUITestsLaunchTests.swift */,
+			);
+			path = dailyjournaliosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2356DE92BD5C7EB00EAAEBA /* dailyjournalios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2356E0E2BD5C7EC00EAAEBA /* Build configuration list for PBXNativeTarget "dailyjournalios" */;
+			buildPhases = (
+				D2356DE62BD5C7EB00EAAEBA /* Sources */,
+				D2356DE72BD5C7EB00EAAEBA /* Frameworks */,
+				D2356DE82BD5C7EB00EAAEBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dailyjournalios;
+			productName = dailyjournalios;
+			productReference = D2356DEA2BD5C7EB00EAAEBA /* dailyjournalios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2356DF92BD5C7EC00EAAEBA /* dailyjournaliosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2356E112BD5C7EC00EAAEBA /* Build configuration list for PBXNativeTarget "dailyjournaliosTests" */;
+			buildPhases = (
+				D2356DF62BD5C7EC00EAAEBA /* Sources */,
+				D2356DF72BD5C7EC00EAAEBA /* Frameworks */,
+				D2356DF82BD5C7EC00EAAEBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2356DFC2BD5C7EC00EAAEBA /* PBXTargetDependency */,
+			);
+			name = dailyjournaliosTests;
+			productName = dailyjournaliosTests;
+			productReference = D2356DFA2BD5C7EC00EAAEBA /* dailyjournaliosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D2356E032BD5C7EC00EAAEBA /* dailyjournaliosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2356E142BD5C7EC00EAAEBA /* Build configuration list for PBXNativeTarget "dailyjournaliosUITests" */;
+			buildPhases = (
+				D2356E002BD5C7EC00EAAEBA /* Sources */,
+				D2356E012BD5C7EC00EAAEBA /* Frameworks */,
+				D2356E022BD5C7EC00EAAEBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2356E062BD5C7EC00EAAEBA /* PBXTargetDependency */,
+			);
+			name = dailyjournaliosUITests;
+			productName = dailyjournaliosUITests;
+			productReference = D2356E042BD5C7EC00EAAEBA /* dailyjournaliosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2356DE22BD5C7EB00EAAEBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					D2356DE92BD5C7EB00EAAEBA = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					D2356DF92BD5C7EC00EAAEBA = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = D2356DE92BD5C7EB00EAAEBA;
+					};
+					D2356E032BD5C7EC00EAAEBA = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = D2356DE92BD5C7EB00EAAEBA;
+					};
+				};
+			};
+			buildConfigurationList = D2356DE52BD5C7EB00EAAEBA /* Build configuration list for PBXProject "dailyjournalios" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2356DE12BD5C7EB00EAAEBA;
+			productRefGroup = D2356DEB2BD5C7EB00EAAEBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2356DE92BD5C7EB00EAAEBA /* dailyjournalios */,
+				D2356DF92BD5C7EC00EAAEBA /* dailyjournaliosTests */,
+				D2356E032BD5C7EC00EAAEBA /* dailyjournaliosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2356DE82BD5C7EB00EAAEBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2356DF52BD5C7EC00EAAEBA /* Preview Assets.xcassets in Resources */,
+				D2356DF22BD5C7EC00EAAEBA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2356DF82BD5C7EC00EAAEBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2356E022BD5C7EC00EAAEBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2356DE62BD5C7EB00EAAEBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2356DF02BD5C7EB00EAAEBA /* ContentView.swift in Sources */,
+				D2356DEE2BD5C7EB00EAAEBA /* dailyjournaliosApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2356DF62BD5C7EC00EAAEBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2356DFF2BD5C7EC00EAAEBA /* dailyjournaliosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2356E002BD5C7EC00EAAEBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2356E0B2BD5C7EC00EAAEBA /* dailyjournaliosUITestsLaunchTests.swift in Sources */,
+				D2356E092BD5C7EC00EAAEBA /* dailyjournaliosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2356DFC2BD5C7EC00EAAEBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2356DE92BD5C7EB00EAAEBA /* dailyjournalios */;
+			targetProxy = D2356DFB2BD5C7EC00EAAEBA /* PBXContainerItemProxy */;
+		};
+		D2356E062BD5C7EC00EAAEBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2356DE92BD5C7EB00EAAEBA /* dailyjournalios */;
+			targetProxy = D2356E052BD5C7EC00EAAEBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D2356E0C2BD5C7EC00EAAEBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D2356E0D2BD5C7EC00EAAEBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2356E0F2BD5C7EC00EAAEBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"dailyjournalios/Preview Content\"";
+				DEVELOPMENT_TEAM = D44U773BCL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaitokitaya.dailyjournalios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2356E102BD5C7EC00EAAEBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"dailyjournalios/Preview Content\"";
+				DEVELOPMENT_TEAM = D44U773BCL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaitokitaya.dailyjournalios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D2356E122BD5C7EC00EAAEBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D44U773BCL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaitokitaya.dailyjournaliosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dailyjournalios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/dailyjournalios";
+			};
+			name = Debug;
+		};
+		D2356E132BD5C7EC00EAAEBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D44U773BCL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaitokitaya.dailyjournaliosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dailyjournalios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/dailyjournalios";
+			};
+			name = Release;
+		};
+		D2356E152BD5C7EC00EAAEBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D44U773BCL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaitokitaya.dailyjournaliosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = dailyjournalios;
+			};
+			name = Debug;
+		};
+		D2356E162BD5C7EC00EAAEBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D44U773BCL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaitokitaya.dailyjournaliosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = dailyjournalios;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2356DE52BD5C7EB00EAAEBA /* Build configuration list for PBXProject "dailyjournalios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2356E0C2BD5C7EC00EAAEBA /* Debug */,
+				D2356E0D2BD5C7EC00EAAEBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2356E0E2BD5C7EC00EAAEBA /* Build configuration list for PBXNativeTarget "dailyjournalios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2356E0F2BD5C7EC00EAAEBA /* Debug */,
+				D2356E102BD5C7EC00EAAEBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2356E112BD5C7EC00EAAEBA /* Build configuration list for PBXNativeTarget "dailyjournaliosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2356E122BD5C7EC00EAAEBA /* Debug */,
+				D2356E132BD5C7EC00EAAEBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2356E142BD5C7EC00EAAEBA /* Build configuration list for PBXNativeTarget "dailyjournaliosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2356E152BD5C7EC00EAAEBA /* Debug */,
+				D2356E162BD5C7EC00EAAEBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2356DE22BD5C7EB00EAAEBA /* Project object */;
+}
